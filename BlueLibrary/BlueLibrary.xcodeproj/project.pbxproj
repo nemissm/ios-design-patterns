@@ -18,6 +18,12 @@
 		450EECD617A9B03A00957F62 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EECD517A9B03A00957F62 /* Default-568h@2x.png */; };
 		450EECD917A9B03A00957F62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450EECD817A9B03A00957F62 /* ViewController.m */; };
 		450EECE517A9B05E00957F62 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 450EECE417A9B05E00957F62 /* HTTPClient.m */; };
+		BCFBBBEA1CB654D800CDB02A /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBBBE91CB654D800CDB02A /* Album.m */; };
+		BCFBBBED1CB655BE00CDB02A /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBBBEC1CB655BE00CDB02A /* AlbumView.m */; };
+		BCFBBBF31CB65F0200CDB02A /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBBBF21CB65F0200CDB02A /* LibraryAPI.m */; };
+		BCFBBBF61CB6678B00CDB02A /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBBBF51CB6678B00CDB02A /* PersistencyManager.m */; };
+		BCFBBBF91CB67A0600CDB02A /* Album+TableRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBBBF81CB67A0600CDB02A /* Album+TableRepresentation.m */; };
+		BCFBBBFC1CB6882A00CDB02A /* HorizontalScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBBBFB1CB6882A00CDB02A /* HorizontalScroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,18 @@
 		450EECD817A9B03A00957F62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		450EECE317A9B05E00957F62 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
 		450EECE417A9B05E00957F62 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		BCFBBBE81CB654D800CDB02A /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		BCFBBBE91CB654D800CDB02A /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		BCFBBBEB1CB655BE00CDB02A /* AlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumView.h; sourceTree = "<group>"; };
+		BCFBBBEC1CB655BE00CDB02A /* AlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumView.m; sourceTree = "<group>"; };
+		BCFBBBF11CB65F0200CDB02A /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAPI.h; sourceTree = "<group>"; };
+		BCFBBBF21CB65F0200CDB02A /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
+		BCFBBBF41CB6678B00CDB02A /* PersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistencyManager.h; sourceTree = "<group>"; };
+		BCFBBBF51CB6678B00CDB02A /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistencyManager.m; sourceTree = "<group>"; };
+		BCFBBBF71CB67A0600CDB02A /* Album+TableRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Album+TableRepresentation.h"; sourceTree = "<group>"; };
+		BCFBBBF81CB67A0600CDB02A /* Album+TableRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Album+TableRepresentation.m"; sourceTree = "<group>"; };
+		BCFBBBFA1CB6882A00CDB02A /* HorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScroller.h; sourceTree = "<group>"; };
+		BCFBBBFB1CB6882A00CDB02A /* HorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				450EECE217A9B04400957F62 /* API */,
-				450EECD717A9B03A00957F62 /* ViewController.h */,
-				450EECD817A9B03A00957F62 /* ViewController.m */,
+				BCFBBBEE1CB65D3500CDB02A /* Model */,
+				BCFBBBEF1CB65D4800CDB02A /* Controller */,
+				BCFBBBF01CB65D5100CDB02A /* View */,
 				450EECCE17A9B03A00957F62 /* AppDelegate.h */,
 				450EECCF17A9B03A00957F62 /* AppDelegate.m */,
 				450EECC617A9B03A00957F62 /* Supporting Files */,
@@ -113,8 +132,43 @@
 			children = (
 				450EECE317A9B05E00957F62 /* HTTPClient.h */,
 				450EECE417A9B05E00957F62 /* HTTPClient.m */,
+				BCFBBBF11CB65F0200CDB02A /* LibraryAPI.h */,
+				BCFBBBF21CB65F0200CDB02A /* LibraryAPI.m */,
+				BCFBBBF41CB6678B00CDB02A /* PersistencyManager.h */,
+				BCFBBBF51CB6678B00CDB02A /* PersistencyManager.m */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		BCFBBBEE1CB65D3500CDB02A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCFBBBE81CB654D800CDB02A /* Album.h */,
+				BCFBBBE91CB654D800CDB02A /* Album.m */,
+				BCFBBBF71CB67A0600CDB02A /* Album+TableRepresentation.h */,
+				BCFBBBF81CB67A0600CDB02A /* Album+TableRepresentation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BCFBBBEF1CB65D4800CDB02A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				450EECD717A9B03A00957F62 /* ViewController.h */,
+				450EECD817A9B03A00957F62 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BCFBBBF01CB65D5100CDB02A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCFBBBEB1CB655BE00CDB02A /* AlbumView.h */,
+				BCFBBBEC1CB655BE00CDB02A /* AlbumView.m */,
+				BCFBBBFA1CB6882A00CDB02A /* HorizontalScroller.h */,
+				BCFBBBFB1CB6882A00CDB02A /* HorizontalScroller.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +197,9 @@
 		450EECB417A9B03A00957F62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NR;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Eli Ganem";
+				ORGANIZATIONNAME = Nerpa;
 			};
 			buildConfigurationList = 450EECB717A9B03A00957F62 /* Build configuration list for PBXProject "BlueLibrary" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -184,7 +239,13 @@
 			files = (
 				450EECCC17A9B03A00957F62 /* main.m in Sources */,
 				450EECD017A9B03A00957F62 /* AppDelegate.m in Sources */,
+				BCFBBBED1CB655BE00CDB02A /* AlbumView.m in Sources */,
+				BCFBBBF61CB6678B00CDB02A /* PersistencyManager.m in Sources */,
+				BCFBBBF31CB65F0200CDB02A /* LibraryAPI.m in Sources */,
+				BCFBBBFC1CB6882A00CDB02A /* HorizontalScroller.m in Sources */,
 				450EECD917A9B03A00957F62 /* ViewController.m in Sources */,
+				BCFBBBF91CB67A0600CDB02A /* Album+TableRepresentation.m in Sources */,
+				BCFBBBEA1CB654D800CDB02A /* Album.m in Sources */,
 				450EECE517A9B05E00957F62 /* HTTPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
